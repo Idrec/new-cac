@@ -1,0 +1,50 @@
+$full-width: 375px;
+$full-height: 812px;
+$white-background: #FFFFFF;
+
+.box {
+    width: $full-width;
+    height: $full-height;
+    background-color: $white-background;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
+    .card1 {
+        width: 324px;
+        height: 368px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+
+        p {
+            font-size: 20px;
+            color: #7C6DDB;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #7C6DDB;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    .card2 {
+        width: 315px;
+        height: 60px;
+
+        button {
+            width: 315px;
+            height: 60px;
+            border-radius: 99px;
+            background: linear-gradient(to right, #9DCEFF, #92A3FD);
+            border-radius: 99px;
+            border: none;
+            box-shadow: 0 0 2px 2px #95ADfe4d;
+        }
+    }
+}

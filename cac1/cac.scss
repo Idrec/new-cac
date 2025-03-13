@@ -1,0 +1,59 @@
+$full-width: 375px;
+$full-height: 812px;
+$white-background: #FFFFFF;
+
+.box {
+    width: $full-width;
+    height: $full-height;
+    background-color: $white-background ;
+
+
+    .section-1 {
+        width: $full-width;
+        height: $full-width;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-2 {
+        h1 {
+
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #1D1617;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #7B6F72;
+        }
+    }
+
+    .section-3 {
+        width: 315px;
+        height: 60px;
+      margin-left: 30px;
+
+        button {
+            width: 315px;
+            height: 60px;
+            border-radius: 99px;
+            background: linear-gradient(to right, #9DCEFF, #92A3FD);
+            border-radius: 99px;
+            border: none;
+            box-shadow: 0 0 2px 2px #95ADfe4d;
+            font-size: 16px;
+            font-weight: 600;
+            color: #FFFFFF;
+            letter-spacing: 3px;
+        }
+    }
+}

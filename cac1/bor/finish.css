@@ -1,0 +1,46 @@
+.box {
+  width: 375px;
+  height: 812px;
+  background-color: #FFFFFF;
+}
+.box .section-1 {
+  width: 375px;
+  height: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .section-2 h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #1D1617;
+}
+.box .section-2 p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #7B6F72;
+}
+.box .section-3 {
+  width: 315px;
+  height: 60px;
+  margin-left: 30px;
+}
+.box .section-3 button {
+  width: 315px;
+  height: 60px;
+  border-radius: 99px;
+  background: linear-gradient(to right, #9DCEFF, #92A3FD);
+  border-radius: 99px;
+  border: none;
+  box-shadow: 0 0 2px 2px rgba(149, 173, 254, 0.3019607843);
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+}/*# sourceMappingURL=finish.css.map */

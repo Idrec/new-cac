@@ -1,0 +1,41 @@
+.box {
+  width: 375px;
+  height: 812px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.box .card1 {
+  width: 324px;
+  height: 368px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.box .card1 p {
+  font-size: 20px;
+  color: #7C6DDB;
+}
+.box .card1 h1 {
+  font-size: 32px;
+  color: #7C6DDB;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.box .card2 {
+  width: 315px;
+  height: 60px;
+}
+.box .card2 button {
+  width: 315px;
+  height: 60px;
+  border-radius: 99px;
+  background: linear-gradient(to right, #9DCEFF, #92A3FD);
+  border-radius: 99px;
+  border: none;
+  box-shadow: 0 0 2px 2px rgba(149, 173, 254, 0.3019607843);
+}/*# sourceMappingURL=dtyle.css.map */
